@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Movies Site</title>
+</head>
+<body>
+    <div class="topnav">
+        
+        <a class="active" href="index.html">Movie Site</a>
+    </div>
+          <h1>Reviews for:</h1>
+          <h3 id="title">Movie Title</h3>
+         
+     <div class="cards"> <a href="#" onclick="viewBox()" >  <div class="container">
+           <strong>➕</strong> <p>Add A Review</p> 
+        </div></a>
+        <section id="section">
+
+        </section></div>
+        <div class="popup">
+            <div class="pop-up-content">
+            <div class="close">✖️</div>
+                <h2>Adding a Review</h1>
+                <input type="text" placeholder="Username" id="Username">
+                <input type="text" placeholder="Review" id="Review">
+                <a href="#" class="button" onclick="addReview()">OK</a>
+            </div>
+        </div>
+        
+    <script src="Movie.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
